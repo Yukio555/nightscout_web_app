@@ -1,8 +1,0 @@
-.git
-.gitignore
-build/
-.idea/
-.packages
-.pub-cache
-.flutter-plugins
-.flutter-plugins-dependencies
