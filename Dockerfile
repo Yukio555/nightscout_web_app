@@ -14,7 +14,7 @@ FROM nginx:alpine
 # Copy Flutter build to nginx html folder
 COPY --from=build /app/build/web /usr/share/nginx/html
 
-# Expose port
+# Expose port required by Fly.io
 EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
